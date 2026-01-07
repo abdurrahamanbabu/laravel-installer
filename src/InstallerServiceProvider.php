@@ -1,5 +1,5 @@
 <?php
-namespace Abdurrahaman\Installer;
+namespace EloquentCoders\Installer;
 
 use Illuminate\Support\ServiceProvider;
 

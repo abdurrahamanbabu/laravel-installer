@@ -1,13 +1,13 @@
 <?php
-namespace Abdurrahaman\Installer\Controllers;
+namespace EloquentCoders\Installer\Controllers;
 
+use Exception;
+use App\Models\User;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use Abdurrahaman\Installer\Repositories\InstallRepository;
-use App\Models\User;
-use Exception;
-use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Artisan;
+use EloquentCoders\Installer\Repositories\InstallRepository;
 
 class InstallationController extends Controller
 {

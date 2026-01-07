@@ -1,5 +1,5 @@
 <?php
-namespace Abdurrahaman\Installer\Repositories;
+namespace EloquentCoders\Installer\Repositories;
 
 use Exception;
 use Illuminate\Support\Facades\DB;

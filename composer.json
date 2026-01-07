@@ -1,0 +1,28 @@
+{
+    "name": "eloquentcoders/laravel-installer",
+    "version" : "1.0",
+    "description": "Installation Service Provider for Laravel Inside application",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "EloquentCoders\\Installer\\": "src/"
+        },
+        "files": ["src/helpers/helper.php"]
+    },
+    "authors": [
+        {
+            "name": "Eloquent Coders",
+            "email": "eloquentcoders@gmail.com"
+        }
+    ],
+    "require": {},
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "EloquentCoders\\Installer\\InstallerServiceProvider"
+            ]
+        }
+    }
+}

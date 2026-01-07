@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\Storage;
-use Abdurrahaman\Installer\Repositories\InstallRepository;
+use EloquentCoders\Installer\Repositories\InstallRepository;
 
 if (!function_exists('writeEnv')) {
     function writeEnv($data = array())
